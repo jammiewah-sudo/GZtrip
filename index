@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>廣州4天3夜自由行</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
+<style>
+:root{--bg:#ffe4ea;--dot:#ffc9d6;--card:#fffafb;--ink:#6b3243;--sub:#b07585;--main:#ff7aa2;--soft:#ffd3df;--line:#ffb3c8;--mint:#c8f0e0;--butter:#fff1b8;--on:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2b1a22;--dot:#3a2430;--card:#3b2530;--ink:#ffe6ee;--sub:#d9a3b4;--main:#ff86ab;--soft:#54323f;--line:#7a4558;--mint:#2e4a43;--butter:#4d4527}}
+:root[data-theme="dark"]{--bg:#2b1a22;--dot:#3a2430;--card:#3b2530;--ink:#ffe6ee;--sub:#d9a3b4;--main:#ff86ab;--soft:#54323f;--line:#7a4558;--mint:#2e4a43;--butter:#4d4527}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg) radial-gradient(var(--dot) 2px,transparent 2.5px) 0 0/22px 22px;color:var(--ink);font-family:"Zen Maru Gothic","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.6;font-weight:500}
+.wrap{max-width:520px;margin:0 auto;padding:22px 16px 48px;position:relative}
+.float{position:absolute;font-size:22px;animation:fl 3.2s ease-in-out infinite;pointer-events:none}
+@keyframes fl{50%{transform:translateY(-8px) rotate(8deg)}}
+.eyebrow{font-size:12px;letter-spacing:.25em;color:var(--sub);font-weight:700}
+h1{margin:2px 0 4px;font-size:28px;font-weight:900;color:var(--main);text-shadow:2px 2px 0 var(--soft)}
+.sub{display:inline-block;background:var(--card);border:2px dashed var(--line);border-radius:999px;padding:2px 14px;color:var(--sub);font-size:13px;margin-bottom:16px}
+.card{background:var(--card);border:2.5px solid var(--line);border-radius:26px;padding:14px 18px;margin-bottom:14px;box-shadow:0 5px 0 var(--soft)}
+.count{text-align:center;border-style:dashed;background:linear-gradient(var(--card),var(--soft));position:relative;overflow:hidden}
+.count b{font-size:54px;color:var(--main);font-weight:900;line-height:1;text-shadow:3px 3px 0 var(--soft)}
+.count small{color:var(--sub);font-weight:700}
+.train{display:block;font-size:26px;animation:go 4s ease-in-out infinite;margin-top:4px}
+@keyframes go{0%{transform:translateX(-90px)}50%{transform:translateX(90px)}100%{transform:translateX(-90px)}}
+.flights{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.flights .card{margin-bottom:6px;text-align:center;padding:12px 8px}
+.tag{display:inline-block;background:var(--main);color:var(--on);border-radius:999px;padding:1px 12px;font-size:12px;font-weight:700}
+.fl{font-size:21px;font-weight:900;margin:6px 0 2px}
+.fl.empty{color:var(--sub)}
+.hint{font-size:12px;color:var(--sub)}
+.tabs,.days{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;margin-bottom:8px}
+button{font:inherit;font-weight:700;cursor:pointer;border:2.5px solid var(--main);background:var(--card);color:var(--main);border-radius:999px;padding:5px 16px;white-space:nowrap;transition:transform .15s}
+button:active{transform:scale(.92)}
+button.on{background:var(--main);color:var(--on);box-shadow:0 3px 0 var(--line)}
+.stop{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:2px dotted var(--line)}
+.stop:first-of-type{border-top:0}
+.ic{flex:none;width:42px;height:42px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font-size:21px}
+.stop:nth-of-type(2n) .ic{background:var(--mint)}
+.stop:nth-of-type(3n) .ic{background:var(--butter)}
+.body{flex:1}
+.time{font-size:12px;color:var(--main);font-weight:900}
+.stop p{margin:0;font-size:13px;color:var(--sub)}
+.heart{flex:none;border:0;background:none;font-size:20px;padding:4px;filter:grayscale(1) opacity(.4)}
+.heart.on{filter:none;animation:pop .35s}
+@keyframes pop{50%{transform:scale(1.5)}}
+h3{margin:0 0 8px;font-size:17px;font-weight:900}
+li{margin:6px 0}ul{padding-left:20px;margin:0}
+.pane{display:none}.pane.on{display:block}
+.foot{text-align:center;color:var(--sub);font-size:13px;margin-top:20px}
+@media (prefers-reduced-motion:reduce){.float,.train,.heart.on{animation:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<span class="float" style="top:14px;right:18px">🌸</span>
+<span class="float" style="top:60px;right:56px;animation-delay:.8s">✨</span>
+<div class="eyebrow">♡ GUANGZHOU DIARY ♡</div>
+<h1>🎀 廣州4天3夜自由行</h1>
+<div class="sub">🗓 2026/11/26–11/29 ・ 4 天 3 夜</div>
+
+<div class="card count"><small>♡ 距離出發還有 ♡</small><br><b id="d">–</b> <small>天</small><span class="train">🚄💨</span><small>2026/11/26 ・ 廣州見啦 ♡</small></div>
+
+<div class="flights">
+<div class="card"><span class="tag">去程 🚄 高鐵</span><div class="fl">08:07 → 09:05</div><div class="hint">11/26 ・ G6080</div></div>
+<div class="card"><span class="tag">回程 🚄 高鐵</span><div class="fl">20:35 → 21:41</div><div class="hint">11/29 ・ G6509</div></div>
+</div>
+
+<div class="card" style="margin-top:8px"><h3>🏠 住呢度</h3>
+逸米酒店（廣州北京路步行街西門口地鐵站店）<div class="hint">行路就到西門口地鐵站同北京路步行街 ・ 11/26 入住 → 11/29 退房</div></div>
+
+<div class="card"><h3>🌤 廣州天氣點呀</h3>
+<div class="hint">11 月尾大約 15–24°C，朝早夜晚有啲涼，日頭幾舒服。帶件薄外套就啱啱好 🧥 出發前記得再睇多次預報喎！</div></div>
+
+<div class="tabs">
+<button class="on" data-t="plan">📅 行程</button><button data-t="tips">📝 須知</button><button data-t="food">🍤 美食</button>
+</div>
+
+<div class="pane on" id="plan">
+<div class="days" id="days"></div>
+<div class="card" id="day"></div>
+</div>
+
+<div class="pane" id="tips"><div class="card"><ul>
+<li>💳 好多舖頭用支付寶／微信支付，記得先綁定海外卡</li>
+<li>🚇 搭地鐵最方便，可以用支付寶乘車碼，由西門口站上車</li>
+<li>📶 預先搞好漫遊、eSIM 或者國際上網</li>
+<li>🪪 證件、車票、酒店確認單，記得喺手機備份</li>
+<li>🧳 去到先擺行李，輕鬆啲先逛街</li>
+</ul></div></div>
+
+<div class="pane" id="food"><div class="card"><ul>
+<li>🥟 早茶：中國元素中餐廳（第1日）</li>
+<li>🍜 腸粉：第2日朝早食</li>
+<li>🍲 椰子雞 or 牛肉火鍋：萬象城入面食</li>
+<li>🍮 甜品：北京路雙皮奶、薑撞奶、龜苓膏</li>
+</ul><p class="hint">營業時間出發前再確認下啦 ♡</p></div></div>
+
+<div class="foot">♡ 玩得開心啲啦 ♡</div>
+</div>
+
+<script>
+var D=[
+{n:"D1",t:"放行李・早茶",date:"11/26",s:[["08:07","上高鐵","🚄","G6080 出發。"],["09:05","到廣州南站","📍","預計 15 分鐘出到站。"],["09:50","搭車去酒店放行李","🧳","車程大概 30 分鐘。"],["之後","飲早茶","🥟","中國元素中餐廳，放完行李先慢慢食。"],["約 13:00","酒店附近行街","🛍","北京路步行街、西華路、上下九商業步行街。"],["夜晚","酒店附近食晚餐","🍜","晚餐就喺酒店附近解決。"]]},
+{n:"D2",t:"萬象城",date:"11/27",s:[["約 9–10 點","早餐食腸粉","🍜","滑滑地嘅腸粉做早餐。"],["上午","去白鵝潭萬象城","🏬","食完早餐就去行商場。"],["午餐","入面食","🍗","椰子雞 or 牛肉火鍋。"],["晚餐","都係入面食","🍲","午餐晚餐都喺萬象城解決。"]]},
+{n:"D3",t:"未排",date:"11/28",s:[]},
+{n:"D4",t:"返程",date:"11/29",s:[["早上","最後一餐早茶","🍵","順便買手信。"],["下午","退房・慢慢行","🧳","可以先寄行李，慢慢行下。"],["約 19:30","去廣州南站","🚇","G6509 20:35 開車，預留時間過安檢。"]]}
+];
+var dc=document.getElementById("days"),dv=document.getElementById("day"),hearts={};
+try{hearts=JSON.parse(localStorage.getItem("gz-h")||"{}")}catch(e){}
+function save(){try{localStorage.setItem("gz-h",JSON.stringify(hearts))}catch(e){}}
+function show(i){
+ [].forEach.call(dc.children,function(b,k){b.className=k===i?"on":""});
+ var x=D[i];if(!x.s.length){dv.innerHTML="<h3>"+x.n+"　"+x.t+"　<span class=\"hint\">"+x.date+"</span></h3><p class=\"hint\" style=\"text-align:center;font-size:14px\">呢日未排 🫧<br>想去邊度就同我講，幫你加返上去 ♡</p>";return}
+ dv.innerHTML="<h3>"+x.n+"　"+x.t+"　<span class=\"hint\">"+x.date+"</span></h3>"+x.s.map(function(s,j){var k=i+"-"+j;return "<div class=\"stop\"><div class=\"ic\">"+s[2]+"</div><div class=\"body\"><div class=\"time\">"+s[0]+"</div><b>"+s[1]+"</b><p>"+s[3]+"</p></div><button class=\"heart"+(hearts[k]?" on":"")+"\" data-k=\""+k+"\" aria-label=\"標記\">💗</button></div>"}).join("");
+ [].forEach.call(dv.querySelectorAll(".heart"),function(h){h.onclick=function(){var k=h.dataset.k;hearts[k]=!hearts[k];h.className="heart"+(hearts[k]?" on":"");save()}});
+}
+D.forEach(function(x,i){var b=document.createElement("button");b.textContent=x.n+" "+x.t;b.onclick=function(){show(i)};dc.appendChild(b)});
+show(0);
+document.querySelectorAll(".tabs button").forEach(function(b){b.onclick=function(){
+ document.querySelectorAll(".tabs button").forEach(function(o){o.className=""});b.className="on";
+ document.querySelectorAll(".pane").forEach(function(p){p.className="pane"});
+ document.getElementById(b.dataset.t).className="pane on"}});
+var diff=Math.ceil((new Date(2026,10,26)-new Date())/864e5);
+document.getElementById("d").textContent=diff>0?diff:0;
+</script>
+</body>
+</html>
